@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17201c">
+  <meta name="description" content="李碧玉个人作品集｜包装设计、品牌视觉、结构工程与 CMF 设计。">
+  <title>李碧玉 LI BIYU — Packaging Design Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-progress"><span id="progressBar"></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-label" aria-hidden="true">VIEW</div>
+
+  <div class="intro" id="intro" aria-label="Portfolio intro">
+    <div class="intro__top"><span>LI BIYU</span><span>PACKAGING DESIGNER / 2026</span></div>
+    <div class="intro__center">
+      <div class="intro__monogram">BL<span>↗</span></div>
+      <p>让包装，成为品牌被记住的理由。</p>
+      <div class="intro__progress"><i></i></div>
+    </div>
+    <button class="intro__skip" id="skipIntro" type="button">SKIP INTRO ↗</button>
+    <div class="intro__bottom"><span>SELECTED WORKS</span><span>01 — 32</span></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="LI BIYU home">
+      <span class="brand__symbol">BL</span>
+      <span class="brand__text">LI BIYU <small>PACKAGING DESIGNER</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#works">作品 <em>WORKS</em></a>
+      <a href="#approach">方法 <em>APPROACH</em></a>
+      <a href="#about">关于 <em>ABOUT</em></a>
+      <a href="#contact">联系 <em>CONTACT</em></a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__noise"></div>
+      <div class="hero__side-index"><span>01 / 05</span><b>PORTFOLIO 2026</b></div>
+      <div class="hero__content">
+        <p class="eyebrow reveal">PACKAGING DESIGN · BRAND EXPERIENCE · STRUCTURE</p>
+        <h1 class="hero__title reveal">
+          <span>让包装</span>
+          <span class="hero__title-line"><i>自己</i>说话<span class="hero__period">.</span></span>
+        </h1>
+        <p class="hero__intro reveal">从品牌识别、视觉表达，到结构工程与量产落地。<br>让每一个包装，都成为产品体验的一部分。</p>
+        <div class="hero__actions reveal">
+          <a class="button button--light magnetic" href="#works"><span>探索作品</span><b>↘</b></a>
+          <span class="hero__caption">SELECTED WORKS <span>2020 — 2026</span></span>
+        </div>
+      </div>
+      <div class="hero__visual" aria-label="Packaging design visual">
+        <img class="hero__box-art" src="assets/hero-box-line.webp" alt="" aria-hidden="true">
+        <div class="hero__orbit hero__orbit--one"></div>
+        <div class="hero__orbit hero__orbit--two"></div>
+        <div class="hero__ripple"><i></i><i></i><i></i></div>
+        <img class="hero__product hero__product--one" src="assets/beauty-eye-tightener.webp" alt="BOTANIKIND eye tightener packaging">
+        <img class="hero__product hero__product--two" src="assets/beauty-meimei-serum.webp" alt="meimei NAD firming serum packaging">
+        <img class="hero__product hero__product--three" src="assets/health-herbal-drops.webp" alt="Herbal drops packaging">
+        <span class="hero__visual-note">FORM / FUNCTION / FEELING</span>
+        <span class="hero__visual-number">BL—001</span>
+      </div>
+      <a class="scroll-cue" href="#works"><span>SCROLL TO EXPLORE</span><i></i></a>
+      <div class="hero__bottomline"><span>INDEPENDENT DESIGNER</span><span>SHENZHEN · CHINA</span></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>DESIGN THAT WORKS</span><b>✳</b><span>PACKAGING WITH PURPOSE</span><b>✳</b><span>FORM MEETS FUNCTION</span><b>✳</b><span>DESIGN THAT WORKS</span><b>✳</b><span>PACKAGING WITH PURPOSE</span><b>✳</b>
+      </div>
+    </div>
+
+    <section class="works section-pad" id="works">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow reveal">02 / SELECTED WORKS</p>
+          <h2 class="display-title reveal">作品<span>精选</span><sup>20+</sup></h2>
+        </div>
+        <p class="section-heading__note reveal">包装不止是外观。<br>它连接品牌、产品与真实使用体验。</p>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+        <button class="filter-chip is-active" data-filter="all">全部 <small>ALL</small></button>
+        <button class="filter-chip" data-filter="beauty">彩妆 · 个护 <small>BEAUTY</small></button>
+        <button class="filter-chip" data-filter="health">保健 · 护理 <small>WELLNESS</small></button>
+        <button class="filter-chip" data-filter="gift">精品 · 礼盒 <small>GIFT</small></button>
+        <button class="filter-chip" data-filter="vape">电子烟 · CMF <small>CMF</small></button>
+        <span class="filter-count" id="filterCount">20 PROJECTS</span>
+      </div>
+
+      <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+
+      <div class="work-note reveal">
+        <span>MORE THAN A PRETTY BOX</span>
+        <p>好的包装设计，需要在第一眼被看见，<br>也要在打开、使用与生产的每一步经得起推敲。</p>
+        <a href="#approach" class="text-link magnetic">了解我的设计方法 <b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="collections">
+      <div class="collections__intro">
+        <p class="eyebrow reveal">SERIES / VISUAL SYSTEM</p>
+        <h2 class="display-title reveal">让系列感<br>成为一种<span>识别力</span></h2>
+        <p class="reveal">从色彩、字体到信息层级，建立可延展、可识别的品牌包装语言。</p>
+        <div class="collections__arrows">
+          <button id="collectionPrev" aria-label="Previous collection">←</button>
+          <button id="collectionNext" aria-label="Next collection">→</button>
+        </div>
+      </div>
+      <div class="collection-track" id="collectionTrack">
+        <article class="collection-card collection-card--mist">
+          <div class="collection-card__visual">
+            <span class="collection-card__label">01 / COLOR SYSTEM</span>
+            <div class="collection-products">
+              <img src="assets/mist-peach.webp" alt="Peach hand mist">
+              <img src="assets/mist-lime.webp" alt="Lime hand mist">
+              <img src="assets/mist-lilac.webp" alt="Lilac hand mist">
+              <img src="assets/mist-rose.webp" alt="Rose hand mist">
+              <img src="assets/mist-sky.webp" alt="Sky hand mist">
+            </div>
+            <span class="collection-card__stamp">5 COLORWAYS</span>
+          </div>
+          <div class="collection-card__caption"><strong>Kseondi 便携洗手喷雾</strong><span>一套视觉语言，五种配色表达。</span></div>
+        </article>
+        <article class="collection-card collection-card--scent">
+          <div class="collection-card__visual">
+            <span class="collection-card__label">02 / BRAND SYSTEM</span>
+            <div class="collection-products collection-products--scent">
+              <img src="assets/fragrance-aspiration.webp" alt="Aspiration perfume">
+              <img src="assets/fragrance-royal-triumph.webp" alt="Royal Triumph perfume">
+              <img src="assets/fragrance-royal-oud.webp" alt="Royal Oud perfume">
+              <img src="assets/fragrance-harmonic.webp" alt="Harmonic perfume">
+            </div>
+            <span class="collection-card__stamp">4 SCENTS</span>
+          </div>
+          <div class="collection-card__caption"><strong>香水系列包装</strong><span>系列感，来自可被重复识别的视觉秩序。</span></div>
+        </article>
+        <article class="collection-card collection-card--sun">
+          <div class="collection-card__visual">
+            <span class="collection-card__label">03 / VISUAL SERIES</span>
+            <div class="collection-products collection-products--sun">
+              <img src="assets/suncare-one.webp" alt="Birch sun care product one">
+              <img src="assets/suncare-two.webp" alt="Birch sun care product two">
+              <img src="assets/suncare-three.webp" alt="Birch sun care product three">
+            </div>
+            <span class="collection-card__stamp">3 FORMULAS</span>
+          </div>
+          <div class="collection-card__caption"><strong>白桦树防晒系列</strong><span>一致的品牌底层语言，清晰区分三款产品。</span></div>
+        </article>
+      </div>
+      <div class="collections__footer"><span>DRAG TO EXPLORE</span><span>01 — 03</span></div>
+    </section>
+
+    <section class="approach section-pad" id="approach">
+      <div class="approach__top">
+        <div>
+          <p class="eyebrow reveal">03 / MY APPROACH</p>
+          <h2 class="display-title reveal">好设计，<br>也要<span>能落地。</span></h2>
+        </div>
+        <div class="approach__aside reveal">
+          <p>先判断市场，再谈表现；<br>先算成本，再谈工艺。</p>
+          <span>DESIGN THINKING × PACKAGING ENGINEERING</span>
+        </div>
+      </div>
+      <div class="approach__rail">
+        <div class="runner" aria-hidden="true">
+          <svg viewBox="0 0 92 58" role="img">
+            <path d="M14 15h45l12 9v24H14z" fill="#d0a27d" stroke="#17201c" stroke-width="2"/>
+            <path d="M14 15l12-9h44l-11 9" fill="#f1e6d6" stroke="#17201c" stroke-width="2"/>
+            <path d="M27 48l-5 8M60 48l7 8" stroke="#17201c" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="29" cy="30" r="2.5" fill="#17201c"/><circle cx="48" cy="30" r="2.5" fill="#17201c"/>
+            <path d="M31 38q8 6 15 0" fill="none" stroke="#17201c" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="approach__line"><span></span></div>
+        <div class="approach__steps">
+          <article class="approach-step reveal"><span>01</span><h3>市场洞察</h3><p>市场 / 竞品 / 价格带</p><i>↗</i></article>
+          <article class="approach-step reveal"><span>02</span><h3>概念定位</h3><p>品牌语言 / 视觉识别</p><i>↗</i></article>
+          <article class="approach-step reveal"><span>03</span><h3>结构工程</h3><p>盒型 / 内托 / 开合方式</p><i>↗</i></article>
+          <article class="approach-step reveal"><span>04</span><h3>材质工艺</h3><p>纸材 / 烫金 / UV / 专色</p><i>↗</i></article>
+          <article class="approach-step reveal"><span>05</span><h3>打样落地</h3><p>白样 / 色样 / 跟机量产</p><i>↗</i></article>
+        </div>
+      </div>
+      <div class="expertise-grid">
+        <div class="expertise-card reveal"><span>01 / COST</span><strong>结构优化与降本</strong><p>平均降本约 <b>15%</b></p></div>
+        <div class="expertise-card reveal"><span>02 / PRINT</span><strong>印刷工艺与跟色</strong><p>工艺确认与量产跟进</p></div>
+        <div class="expertise-card reveal"><span>03 / GLOBAL</span><strong>跨境合规与 ODM</strong><p>海外标签 / 供应链协同</p></div>
+        <div class="expertise-card reveal"><span>04 / AIGC</span><strong>AIGC 工作流</strong><p>概念构思效率提升约 <b>30%</b></p></div>
+      </div>
+    </section>
+
+    <section class="structure section-pad" id="structure">
+      <div class="structure__heading">
+        <div>
+          <p class="eyebrow reveal">04 / STRUCTURE LAB</p>
+          <h2 class="display-title reveal">结构，是打开后的<span>体验。</span></h2>
+        </div>
+        <p class="structure__intro reveal">从外观创意，到盒型展开、内托分区与印刷版面。<br>让视觉与生产逻辑在同一张图纸上对话。</p>
+      </div>
+      <div class="structure-grid">
+        <article class="structure-card structure-card--wide reveal" data-modal-project="ampoule">
+          <div class="structure-card__image"><img src="assets/gift-ampoule-dieline.webp" alt="Ampoule gift set box dieline"></div>
+          <div class="structure-card__meta"><span>01 / DIELINE · INSERT · LABEL</span><b>安瓶礼盒 · 结构平面 ↗</b></div>
+        </article>
+        <article class="structure-card reveal" data-modal-project="advent">
+          <div class="structure-card__image"><img src="assets/gift-advent-dieline.webp" alt="Advent calendar box dieline"></div>
+          <div class="structure-card__meta"><span>02 / 24 INNER UNITS</span><b>圣诞日历 · 盒型结构 ↗</b></div>
+        </article>
+        <article class="structure-card reveal" data-modal-project="massager">
+          <div class="structure-card__image"><img src="assets/gift-massager-dieline.webp" alt="Massage gift box structural dieline"></div>
+          <div class="structure-card__meta"><span>03 / STRUCTURAL DIELINE</span><b>按摩仪礼盒 · 刀模展开 ↗</b></div>
+        </article>
+      </div>
+      <div class="structure__foot"><span>STRUCTURE / MATERIAL / PRODUCTION</span><span>DESIGN WITH REAL-WORLD LOGIC</span></div>
+    </section>
+
+    <section class="cmf">
+      <div class="cmf__text">
+        <p class="eyebrow reveal">05 / CMF STUDY</p>
+        <h2 class="display-title reveal">Color.<br>Material.<br><span>Finish.</span></h2>
+        <p class="reveal">系列化配色研究与材质视觉呈现。<br>用颜色与表面处理，建立产品家族的辨识度。</p>
+        <div class="cmf__tag reveal">VAPE / PACKAGING SYSTEM</div>
+      </div>
+      <div class="cmf__gallery">
+        <figure class="cmf__main reveal"><img src="assets/vape-cmf-range.webp" alt="Vape color range study"><figcaption>COLOR RANGE / 01</figcaption></figure>
+        <figure class="cmf__small reveal"><img src="assets/vape-cmf-material-a.webp" alt="Vape material finish study"><figcaption>MATERIAL & FINISH / 02</figcaption></figure>
+        <figure class="cmf__small reveal"><img src="assets/vape-cmf-material-b.webp" alt="Vape material finish study"><figcaption>MATERIAL & FINISH / 03</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="section-heading">
+        <div><p class="eyebrow reveal">06 / THE DESIGNER</p><h2 class="display-title reveal">关于<span>李碧玉</span></h2></div>
+        <p class="section-heading__note reveal">PACKAGING DESIGNER<br>SHENZHEN · CHINA</p>
+      </div>
+      <div class="about__grid">
+        <div class="about__portrait reveal">
+          <img src="assets/portrait-biyu.webp" alt="李碧玉个人照片">
+          <span class="about__portrait-label">LI BIYU / 2026</span>
+        </div>
+        <div class="about__bio">
+          <p class="about__quote reveal">「做能落地的包装」</p>
+          <p class="about__description reveal">六年包装设计与结构工程经验，把品牌想法转化为能开模、能量产、能控制成本的包装解决方案。覆盖彩妆个护、大健康、香氛、礼品与电子烟；兼顾消费端识别、材质工艺与生产可行性。</p>
+          <div class="stats-grid">
+            <div class="stat reveal"><strong data-count="6">6</strong><span>年设计经验</span></div>
+            <div class="stat reveal"><strong data-count="500">500+</strong><span>落地项目</span></div>
+            <div class="stat reveal"><strong data-count="90">90+</strong><span>全年交付</span></div>
+            <div class="stat reveal"><strong data-count="95">95+</strong><span>客户满意度</span></div>
+          </div>
+          <div class="timeline">
+            <div class="timeline__item reveal"><span>2020 — 2024</span><div><strong>德广纸品</strong><small>PACKAGING DESIGNER</small><p>纸品彩盒与礼盒全流程 / 生产跟色 · 结构优化</p></div></div>
+            <div class="timeline__item reveal"><span>2024 — 2025</span><div><strong>豪尔科技</strong><small>PACKAGING DESIGNER</small><p>电子烟全系列包装 / 海外 ODM · CMF 设计</p></div></div>
+            <div class="timeline__item reveal"><span>2025 — NOW</span><div><strong>海亦供应链</strong><small>PACKAGING DESIGNER</small><p>跨境美妆 / 个护 / 大健康全案 / AIGC 工作流与效率优化</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__orb" aria-hidden="true"></div>
+      <div class="contact__top"><span>07 / LET'S MAKE IT REAL</span><span>OPEN TO COLLABORATION</span></div>
+      <div class="contact__main">
+        <p class="eyebrow reveal">HAVE A PROJECT IN MIND?</p>
+        <h2 class="contact__title reveal">让包装，<br><em>成为品牌</em><br>被记住的理由<span>.</span></h2>
+        <a class="contact__cta magnetic reveal" href="mailto:3475292915@qq.com"><span>开始一次合作</span><b>↗</b></a>
+      </div>
+      <div class="contact__details">
+        <div><span>EMAIL</span><a href="mailto:3475292915@qq.com">3475292915@qq.com</a></div>
+        <div><span>PHONE</span><a href="tel:15307477968">153-0747-7968</a></div>
+        <div><span>LOCATION</span><p>深圳 · 广东</p></div>
+        <div><span>PORTFOLIO</span><p>PACKAGING DESIGN / 2020—2026</p></div>
+      </div>
+      <footer class="site-footer"><a class="footer-brand" href="#top">LI BIYU <small>PACKAGING DESIGNER</small></a><span>DESIGN THAT WORKS — VISUALLY AND PRACTICALLY.</span><a href="#top">BACK TO TOP ↑</a><span>© 2026 LI BIYU</span></footer>
+    </section>
+  </main>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" id="modalClose" aria-label="Close project details">×</button>
+      <div class="modal__content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

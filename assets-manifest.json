@@ -1,0 +1,398 @@
+{
+  "hero-box-line": {
+    "file": "assets/hero-box-line.webp",
+    "source": "slide-01-img-02.png",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "bytes": 7984
+  },
+  "portrait-biyu": {
+    "file": "assets/portrait-biyu.webp",
+    "source": "slide-03-img-08.jpg",
+    "dimensions": [
+      1279,
+      1706
+    ],
+    "bytes": 209600
+  },
+  "beauty-eye-tightener": {
+    "file": "assets/beauty-eye-tightener.webp",
+    "source": "slide-07-img-07.png",
+    "dimensions": [
+      743,
+      1166
+    ],
+    "bytes": 263138
+  },
+  "beauty-blancora": {
+    "file": "assets/beauty-blancora.webp",
+    "source": "slide-08-img-07.png",
+    "dimensions": [
+      1133,
+      520
+    ],
+    "bytes": 382808
+  },
+  "beauty-meimei-serum": {
+    "file": "assets/beauty-meimei-serum.webp",
+    "source": "slide-09-img-07.png",
+    "dimensions": [
+      985,
+      1070
+    ],
+    "bytes": 381586
+  },
+  "beauty-nail-care": {
+    "file": "assets/beauty-nail-care.webp",
+    "source": "slide-10-img-07.png",
+    "dimensions": [
+      821,
+      1187
+    ],
+    "bytes": 398048
+  },
+  "beauty-hanae-lash": {
+    "file": "assets/beauty-hanae-lash.webp",
+    "source": "slide-11-img-07.png",
+    "dimensions": [
+      661,
+      1166
+    ],
+    "bytes": 175636
+  },
+  "mist-peach": {
+    "file": "assets/mist-peach.webp",
+    "source": "slide-12-img-10.png",
+    "dimensions": [
+      1176,
+      1023
+    ],
+    "bytes": 390090
+  },
+  "mist-lime": {
+    "file": "assets/mist-lime.webp",
+    "source": "slide-12-img-13.png",
+    "dimensions": [
+      1177,
+      1027
+    ],
+    "bytes": 332548
+  },
+  "mist-lilac": {
+    "file": "assets/mist-lilac.webp",
+    "source": "slide-12-img-16.png",
+    "dimensions": [
+      1174,
+      1016
+    ],
+    "bytes": 309044
+  },
+  "mist-rose": {
+    "file": "assets/mist-rose.webp",
+    "source": "slide-12-img-19.png",
+    "dimensions": [
+      1174,
+      1016
+    ],
+    "bytes": 353206
+  },
+  "mist-sky": {
+    "file": "assets/mist-sky.webp",
+    "source": "slide-12-img-22.png",
+    "dimensions": [
+      1176,
+      1021
+    ],
+    "bytes": 370550
+  },
+  "fragrance-aspiration": {
+    "file": "assets/fragrance-aspiration.webp",
+    "source": "slide-13-img-10.png",
+    "dimensions": [
+      948,
+      1066
+    ],
+    "bytes": 323536
+  },
+  "fragrance-royal-triumph": {
+    "file": "assets/fragrance-royal-triumph.webp",
+    "source": "slide-13-img-14.png",
+    "dimensions": [
+      941,
+      1066
+    ],
+    "bytes": 210456
+  },
+  "fragrance-royal-oud": {
+    "file": "assets/fragrance-royal-oud.webp",
+    "source": "slide-13-img-18.png",
+    "dimensions": [
+      950,
+      1073
+    ],
+    "bytes": 402984
+  },
+  "fragrance-harmonic": {
+    "file": "assets/fragrance-harmonic.webp",
+    "source": "slide-13-img-22.png",
+    "dimensions": [
+      939,
+      1066
+    ],
+    "bytes": 306392
+  },
+  "suncare-one": {
+    "file": "assets/suncare-one.webp",
+    "source": "slide-14-img-10.png",
+    "dimensions": [
+      755,
+      1115
+    ],
+    "bytes": 247378
+  },
+  "suncare-two": {
+    "file": "assets/suncare-two.webp",
+    "source": "slide-14-img-12.png",
+    "dimensions": [
+      754,
+      1119
+    ],
+    "bytes": 249822
+  },
+  "suncare-three": {
+    "file": "assets/suncare-three.webp",
+    "source": "slide-14-img-14.png",
+    "dimensions": [
+      756,
+      1119
+    ],
+    "bytes": 248668
+  },
+  "health-herbal-drops": {
+    "file": "assets/health-herbal-drops.webp",
+    "source": "slide-16-img-07.png",
+    "dimensions": [
+      985,
+      1240
+    ],
+    "bytes": 579356
+  },
+  "health-sunfree-glow": {
+    "file": "assets/health-sunfree-glow.webp",
+    "source": "slide-17-img-07.png",
+    "dimensions": [
+      1178,
+      918
+    ],
+    "bytes": 330930
+  },
+  "health-creatine-gummies": {
+    "file": "assets/health-creatine-gummies.webp",
+    "source": "slide-18-img-07.png",
+    "dimensions": [
+      754,
+      1015
+    ],
+    "bytes": 423370
+  },
+  "health-sleep-48": {
+    "file": "assets/health-sleep-48.webp",
+    "source": "slide-19-img-10.png",
+    "dimensions": [
+      1163,
+      831
+    ],
+    "bytes": 564926
+  },
+  "health-sleep-72": {
+    "file": "assets/health-sleep-72.webp",
+    "source": "slide-19-img-12.png",
+    "dimensions": [
+      1187,
+      835
+    ],
+    "bytes": 681188
+  },
+  "gift-ampoule-set": {
+    "file": "assets/gift-ampoule-set.webp",
+    "source": "slide-21-img-07.jpg",
+    "dimensions": [
+      1280,
+      1280
+    ],
+    "bytes": 197646
+  },
+  "gift-ampoule-dieline": {
+    "file": "assets/gift-ampoule-dieline.webp",
+    "source": "slide-22-img-12.jpg",
+    "dimensions": [
+      1280,
+      988
+    ],
+    "bytes": 82088
+  },
+  "gift-ampoule-insert": {
+    "file": "assets/gift-ampoule-insert.webp",
+    "source": "slide-22-img-14.jpg",
+    "dimensions": [
+      610,
+      821
+    ],
+    "bytes": 19196
+  },
+  "gift-ampoule-tray": {
+    "file": "assets/gift-ampoule-tray.webp",
+    "source": "slide-22-img-17.jpg",
+    "dimensions": [
+      629,
+      835
+    ],
+    "bytes": 25750
+  },
+  "gift-ampoule-label": {
+    "file": "assets/gift-ampoule-label.webp",
+    "source": "slide-22-img-20.jpg",
+    "dimensions": [
+      843,
+      1159
+    ],
+    "bytes": 52682
+  },
+  "gift-ampoule-print": {
+    "file": "assets/gift-ampoule-print.webp",
+    "source": "slide-22-img-23.jpg",
+    "dimensions": [
+      1063,
+      946
+    ],
+    "bytes": 55172
+  },
+  "gift-advent-design": {
+    "file": "assets/gift-advent-design.webp",
+    "source": "slide-23-img-06.png",
+    "dimensions": [
+      1245,
+      637
+    ],
+    "bytes": 696108
+  },
+  "gift-advent-dieline": {
+    "file": "assets/gift-advent-dieline.webp",
+    "source": "slide-24-img-12.jpg",
+    "dimensions": [
+      1596,
+      850
+    ],
+    "bytes": 92108
+  },
+  "gift-advent-inner-units": {
+    "file": "assets/gift-advent-inner-units.webp",
+    "source": "slide-24-img-14.jpg",
+    "dimensions": [
+      1184,
+      2048
+    ],
+    "bytes": 201324
+  },
+  "gift-massager": {
+    "file": "assets/gift-massager.webp",
+    "source": "slide-25-img-06.jpg",
+    "dimensions": [
+      1300,
+      1300
+    ],
+    "bytes": 49226
+  },
+  "gift-massager-dieline": {
+    "file": "assets/gift-massager-dieline.webp",
+    "source": "slide-26-img-12.jpg",
+    "dimensions": [
+      2080,
+      1216
+    ],
+    "bytes": 103574
+  },
+  "vape-artwork-01": {
+    "file": "assets/vape-artwork-01.webp",
+    "source": "slide-28-img-12.jpg",
+    "dimensions": [
+      1280,
+      769
+    ],
+    "bytes": 94508
+  },
+  "vape-artwork-02": {
+    "file": "assets/vape-artwork-02.webp",
+    "source": "slide-28-img-15.jpg",
+    "dimensions": [
+      820,
+      850
+    ],
+    "bytes": 111268
+  },
+  "vape-artwork-03": {
+    "file": "assets/vape-artwork-03.webp",
+    "source": "slide-28-img-18.jpg",
+    "dimensions": [
+      685,
+      753
+    ],
+    "bytes": 70994
+  },
+  "vape-artwork-04": {
+    "file": "assets/vape-artwork-04.webp",
+    "source": "slide-28-img-21.jpg",
+    "dimensions": [
+      616,
+      506
+    ],
+    "bytes": 49062
+  },
+  "vape-artwork-05": {
+    "file": "assets/vape-artwork-05.webp",
+    "source": "slide-28-img-24.jpg",
+    "dimensions": [
+      904,
+      720
+    ],
+    "bytes": 100198
+  },
+  "vape-artwork-06": {
+    "file": "assets/vape-artwork-06.webp",
+    "source": "slide-28-img-27.jpg",
+    "dimensions": [
+      550,
+      584
+    ],
+    "bytes": 58694
+  },
+  "vape-cmf-range": {
+    "file": "assets/vape-cmf-range.webp",
+    "source": "slide-29-img-12.jpg",
+    "dimensions": [
+      1280,
+      1164
+    ],
+    "bytes": 100118
+  },
+  "vape-cmf-material-a": {
+    "file": "assets/vape-cmf-material-a.webp",
+    "source": "slide-29-img-14.jpg",
+    "dimensions": [
+      1280,
+      461
+    ],
+    "bytes": 74892
+  },
+  "vape-cmf-material-b": {
+    "file": "assets/vape-cmf-material-b.webp",
+    "source": "slide-29-img-16.jpg",
+    "dimensions": [
+      1280,
+      461
+    ],
+    "bytes": 74892
+  }
+}
